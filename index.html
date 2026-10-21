@@ -1,0 +1,757 @@
+<!doctype html>
+<html lang="fr-CH">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>L&amp;A Coiffure – Salon de coiffure à Fribourg, bd de Pérolles 22</title>
+  <meta name="description" content="Salon de coiffure à Fribourg, boulevard de Pérolles 22 : balayage, coloration, gloss, soins Kérastase, lissage kératine et coupes femme et homme. Tarifs détaillés et réservation en ligne.">
+  <meta name="theme-color" content="#0d0d0e">
+  <script>document.documentElement.className = 'js';</script>
+
+  <link rel="preload" href="assets/fonts/jost-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <!-- Partage sur les réseaux (voir README : passer og:image en URL absolue après publication) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_CH">
+  <meta property="og:site_name" content="L&amp;A Coiffure">
+  <meta property="og:title" content="L&amp;A Coiffure – Votre coiffeur sur Fribourg">
+  <meta property="og:description" content="Balayage, coloration, soins Kérastase, lissage et coupes au boulevard de Pérolles 22, Fribourg. Réservation en ligne.">
+  <meta property="og:image" content="assets/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HairSalon",
+    "name": "L&A Coiffure",
+    "slogan": "Votre coiffeur sur Fribourg",
+    "telephone": "+41794380883",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Boulevard de Pérolles 22",
+      "postalCode": "1700",
+      "addressLocality": "Fribourg",
+      "addressRegion": "FR",
+      "addressCountry": "CH"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": 46.799866, "longitude": 7.1528 },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "09:00", "closes": "18:30" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:30", "closes": "16:00" }
+    ],
+    "paymentAccepted": "Cash",
+    "currenciesAccepted": "CHF",
+    "priceRange": "CHF 12 – 450",
+    "sameAs": ["https://salonkee.ch/salon/la-coiffure"],
+    "potentialAction": {
+      "@type": "ReserveAction",
+      "target": "https://salonkee.ch/salon/la-coiffure"
+    }
+  }
+  </script>
+</head>
+<body>
+  <!-- Icônes (sprite SVG interne) -->
+  <svg width="0" height="0" class="sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15.5" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M3.5 9.5h17M8 3v4M16 3v4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6.6 3.5h2.6l1.5 4.2-2 1.4a11 11 0 0 0 6.2 6.2l1.4-2 4.2 1.5v2.6a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 4.6 5.7a2 2 0 0 1 2-2.2Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-6.5-6.1-6.5-11.2a6.5 6.5 0 0 1 13 0C18.5 14.9 12 21 12 21Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="12" cy="9.8" r="2.3" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></symbol>
+    <symbol id="i-cash" viewBox="0 0 24 24"><rect x="2.5" y="6" width="19" height="12" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="2.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M6 9.5v5M18 9.5v5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M12 11v5.5M12 7.6v.1" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="i-scissors" viewBox="0 0 24 24"><circle cx="6.5" cy="17" r="2.8" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="6.5" cy="7" r="2.8" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8.8 8.6 20 17.5M8.8 15.4 20 6.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-external" viewBox="0 0 24 24"><path d="M14 4.5h5.5V10M19.5 4.5 11 13M17 14v4.5a1 1 0 0 1-1 1H5.5a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1H10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 3.2 2.7 5.6 6.1.8-4.5 4.2 1.1 6.1L12 17l-5.4 2.9 1.1-6.1-4.5-4.2 6.1-.8Z" fill="currentColor"/></symbol>
+    <symbol id="i-route" viewBox="0 0 24 24"><path d="M12 3 21 12l-9 9-9-9Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M9.5 14v-2.5a1 1 0 0 1 1-1h4M13 8.5l2 2-2 2" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </svg>
+
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <header class="site-header" data-header>
+    <div class="container site-header__inner">
+      <a class="brand" href="#top" aria-label="L&amp;A Coiffure, retour en haut de page">
+        <img class="brand__logo" src="assets/images/logo-la-coiffure.png" width="400" height="244" alt="L&amp;A Coiffure">
+      </a>
+
+      <nav class="main-nav" aria-label="Navigation principale">
+        <ul class="main-nav__list">
+          <li><a href="#salon" data-nav-link>Le salon</a></li>
+          <li><a href="#prestations" data-nav-link>Prestations &amp; tarifs</a></li>
+          <li><a href="#avis" data-nav-link>Avis</a></li>
+          <li><a href="#acces" data-nav-link>Horaires &amp; accès</a></li>
+        </ul>
+      </nav>
+
+      <div class="site-header__actions">
+        <a class="btn btn--silver btn--sm" href="https://salonkee.ch/salon/la-coiffure" target="_blank" rel="noopener">
+          Réserver<span class="visually-hidden"> en ligne sur Salonkee (nouvel onglet)</span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-mobile" data-menu-toggle>
+          <span class="menu-toggle__bars" aria-hidden="true"></span>
+          <span class="visually-hidden">Ouvrir le menu</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-menu" id="menu-mobile" hidden data-menu>
+      <nav aria-label="Menu mobile">
+        <ul class="mobile-menu__list">
+          <li><a href="#salon">Le salon</a></li>
+          <li><a href="#prestations">Prestations &amp; tarifs</a></li>
+          <li><a href="#avis">Avis clients</a></li>
+          <li><a href="#acces">Horaires &amp; accès</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-menu__footer">
+        <a class="btn btn--silver btn--block" href="https://salonkee.ch/salon/la-coiffure" target="_blank" rel="noopener">
+          <svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg>
+          Prendre rendez-vous<span class="visually-hidden"> sur Salonkee (nouvel onglet)</span>
+        </a>
+        <a class="btn btn--ghost btn--block" href="tel:+41794380883">
+          <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+          079 438 08 83
+        </a>
+        <p class="mobile-menu__address">Boulevard de Pérolles 22, 1700 Fribourg</p>
+      </div>
+    </div>
+  </header>
+
+  <main id="contenu">
+    <!-- ACCUEIL -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="eyebrow">Salon de coiffure · Fribourg</p>
+          <h1 class="hero__title" id="hero-title">Votre coiffeur <span class="silver">sur Fribourg</span></h1>
+          <p class="hero__lead">Balayage, coloration, gloss, soins Kérastase, lissage et coupes pour femmes et hommes, au boulevard de Pérolles&nbsp;22.</p>
+
+          <div class="hero__actions" data-hero-actions>
+            <a class="btn btn--silver btn--lg" href="https://salonkee.ch/salon/la-coiffure" target="_blank" rel="noopener">
+              <svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg>
+              Prendre rendez-vous<span class="visually-hidden"> sur Salonkee (nouvel onglet)</span>
+            </a>
+            <a class="btn btn--ghost btn--lg" href="tel:+41794380883">
+              <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+              079 438 08 83
+            </a>
+          </div>
+
+          <p class="hero__note">Réservation en ligne 24 h/24 · Paiement en espèces uniquement</p>
+        </div>
+
+        <figure class="hero__media">
+          <div class="frame">
+            <picture>
+              <source type="image/avif" srcset="assets/images/salon-postes-560.avif 560w, assets/images/salon-postes-880.avif 880w" sizes="(min-width: 1024px) 40vw, (min-width: 768px) 80vw, 100vw">
+              <img src="assets/images/salon-postes-880.jpg" srcset="assets/images/salon-postes-560.jpg 560w, assets/images/salon-postes-880.jpg 880w" sizes="(min-width: 1024px) 40vw, (min-width: 768px) 80vw, 100vw" width="880" height="1100" alt="Les postes de coiffage du salon : fauteuils transparents, grands miroirs et fenêtre sur le boulevard de Pérolles" fetchpriority="high" decoding="async">
+            </picture>
+          </div>
+          <a class="rating-badge" href="#avis">
+            <span class="rating-badge__score">4,9<span class="rating-badge__max">/5</span></span>
+            <span class="rating-badge__text">
+              <span class="stars" aria-hidden="true"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span>
+              222 avis vérifiés Salonkee
+            </span>
+          </a>
+        </figure>
+      </div>
+
+      <div class="container">
+        <ul class="facts">
+          <li class="facts__item">
+            <svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>
+            <span><span class="facts__label">Aujourd'hui</span><span class="facts__value" data-open-status>Mar–ven 9h00–18h30 · sam 8h30–16h00</span></span>
+          </li>
+          <li class="facts__item">
+            <svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>
+            <span><span class="facts__label">Adresse</span><span class="facts__value">Bd de Pérolles 22, 1700 Fribourg</span></span>
+          </li>
+          <li class="facts__item">
+            <svg class="icon" aria-hidden="true"><use href="#i-cash"/></svg>
+            <span><span class="facts__label">Paiement</span><span class="facts__value">En espèces uniquement</span></span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- LE SALON -->
+    <section class="section section--light" id="salon" aria-labelledby="salon-title">
+      <div class="container">
+        <div class="salon">
+          <div class="salon__text reveal">
+            <p class="eyebrow eyebrow--dark">Le salon</p>
+            <h2 class="section-title" id="salon-title">Un salon lumineux, au cœur de Pérolles</h2>
+            <p>L&amp;A Coiffure vous accueille au boulevard de Pérolles 22, à Fribourg. Le salon réalise tout le travail de la couleur, du balayage au sunlight en passant par la coloration et le gloss, ainsi que des soins, des lissages à la kératine, des permanentes et des coupes pour femmes et hommes.</p>
+            <p>Dans leurs avis, les clientes et clients citent surtout l'accueil, le conseil et le professionnalisme de l'équipe.</p>
+          </div>
+
+          <div class="salon__gallery reveal">
+            <figure class="salon__main frame frame--dark">
+              <picture>
+                <source type="image/avif" srcset="assets/images/salon-interieur-720.avif 720w, assets/images/salon-interieur-1200.avif 1200w" sizes="(min-width: 1024px) 50vw, 100vw">
+                <img src="assets/images/salon-interieur-1200.jpg" srcset="assets/images/salon-interieur-720.jpg 720w, assets/images/salon-interieur-1200.jpg 1200w" sizes="(min-width: 1024px) 50vw, 100vw" width="1200" height="922" alt="Vue d'ensemble du salon : accueil, bacs de lavage sous une arche et trois postes de coiffage" loading="lazy" decoding="async">
+              </picture>
+            </figure>
+            <figure class="salon__thumb">
+              <picture>
+                <source type="image/avif" srcset="assets/images/salon-bacs-720.avif">
+                <img src="assets/images/salon-bacs-720.jpg" width="720" height="554" alt="Les bacs de lavage du salon" loading="lazy" decoding="async">
+              </picture>
+            </figure>
+            <figure class="salon__thumb">
+              <picture>
+                <source type="image/avif" srcset="assets/images/produits-kerastase-720.avif">
+                <img src="assets/images/produits-kerastase-720.jpg" width="720" height="554" alt="Produits de soin Kérastase en rayon au salon" loading="lazy" decoding="async">
+              </picture>
+            </figure>
+          </div>
+        </div>
+
+        <ul class="pillars">
+          <li class="pillar reveal">
+            <span class="pillar__mark" aria-hidden="true"></span>
+            <h3 class="pillar__title">Des prix clairs avant de venir</h3>
+            <p>Chaque tarif est indiqué selon la longueur de vos cheveux, avec la durée prévue.</p>
+          </li>
+          <li class="pillar reveal">
+            <span class="pillar__mark" aria-hidden="true"></span>
+            <h3 class="pillar__title">Tarifs étudiants</h3>
+            <p>Coupe étudiante à CHF&nbsp;59.– et coupe étudiant à CHF&nbsp;35.–.</p>
+          </li>
+          <li class="pillar reveal">
+            <span class="pillar__mark" aria-hidden="true"></span>
+            <h3 class="pillar__title">Réservation à toute heure</h3>
+            <p>Choisissez votre créneau en ligne, jusqu'à 20&nbsp;semaines à l'avance.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PRESTATIONS & TARIFS -->
+    <section class="section section--paper" id="prestations" aria-labelledby="prestations-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow eyebrow--dark">Prestations &amp; tarifs</p>
+          <h2 class="section-title" id="prestations-title">La carte du salon</h2>
+          <p class="section-intro">Les prix dépendent de la longueur et de l'épaisseur des cheveux. Le prix exact s'affiche au moment de réserver sur Salonkee.</p>
+        </div>
+
+        <div class="tabs" data-tabs>
+          <div class="tabs__list" data-tabs-list hidden>
+            <button type="button" class="tabs__tab" data-tab="couleur">Balayage &amp; couleur</button>
+            <button type="button" class="tabs__tab" data-tab="soins">Gloss &amp; soins</button>
+            <button type="button" class="tabs__tab" data-tab="coupe">Coupe &amp; coiffage</button>
+            <button type="button" class="tabs__tab" data-tab="lissage">Lissage &amp; permanente</button>
+            <button type="button" class="tabs__tab" data-tab="homme">Homme</button>
+            <button type="button" class="tabs__tab" data-tab="supplements">Suppléments</button>
+          </div>
+
+          <!-- Balayage & couleur -->
+          <div class="tabs__panel" id="tarifs-couleur" data-panel="couleur">
+            <h3 class="panel-title">Balayage &amp; couleur</h3>
+            <ul class="svc-list">
+              <li class="svc">
+                <div class="svc__head"><h4 class="svc__name">Balayage + gloss + coupe + brushing</h4><p class="svc__price"><span class="svc__from">dès</span> CHF 250.–</p></div>
+                <p class="svc__meta"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>Selon la durée de la technique</p>
+                <ul class="variants">
+                  <li><span>2 à 3 h</span><b>250.–</b></li>
+                  <li><span>4 h</span><b>310.–</b></li>
+                  <li><span>5 h</span><b>370.–</b></li>
+                  <li><span>6 h</span><b>450.–</b></li>
+                </ul>
+              </li>
+              <li class="svc">
+                <div class="svc__head"><h4 class="svc__name">Sunlight + coupe &amp; brushing</h4><p class="svc__price"><span class="svc__from">dès</span> CHF 200.–</p></div>
+                <p class="svc__desc">Un effet soleil : des reflets lumineux concentrés sur le dessus de la tête et sur les pointes.</p>
+                <p class="svc__meta"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>2 h à 2 h 30</p>
+                <ul class="variants">
+                  <li><span>Courts</span><b>200.–</b></li>
+                  <li><span>Mi-longs</span><b>220.–</b></li>
+                  <li><span>Longs</span><b>250.–</b></li>
+                </ul>
+              </li>
+              <li class="svc">
+                <div class="svc__head"><h4 class="svc__name">Décoloration racines + gloss + coupe</h4><p class="svc__price"><span class="svc__from">dès</span> CHF 200.–</p></div>
+                <p class="svc__desc">Décoloration totale des racines, ou décoloration complète sur cheveux très courts (style garçonne).</p>
+                <p class="svc__meta"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>2 h 15 à 3 h</p>
+                <ul class="variants">
+                  <li><span>Courts</span><b>200.–</b></li>
+                  <li><span>Mi-longs</span><b>235.–</b></li>
+                  <li><span>Longs</span><b>260.–</b></li>
+                </ul>
+              </li>
+              <li class="svc">
+                <div class="svc__head"><h4 class="svc__name">Décapage – nettoyage de couleur</h4><p class="svc__price"><span class="svc__from">dès</span> CHF 200.–</p></div>
+                <p class="svc__meta"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>2 h à 2 h 30</p>
+                <ul class="variants">
+                  <li><span>Courts</span><b>200.–</b></li>
+                  <li><span>Mi-longs</span><b>245.–</b></li>
+                  <li><span>Longs</span><b>280.–</b></li>
+                </ul>
+              </li>
+              <li class="svc">
+                <div class="svc__head"><h4 class="svc__name">Coloration racines + brushing</h4><p class="svc__price"><span class="svc__from">dès</span> CHF 120.–</p></div>
+                <p class="svc__meta"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>1 h 30 à 2 h</p>
+                <ul class="variants">
+                  <li><span>Courts</span><b>120.–</b></li>
+                  <li><span>Mi-longs</span><b>135.–</b></li>
+                  <li><span>Longs</span><b>145.–</b></li>
+                  <li><span>Très longs</span><b>155.–</b></li>
+                </ul>
+              </li>
+              <li class="svc">
+                <div class="svc__head"><h4 class="svc__name">Coloration racines + coupe + brushing</h4><p class="svc__price"><span class="svc__from">dès</span> CHF 140.–</p></div>
+                <p class="svc__meta"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>1 h 30 à 2 h</p>
+                <ul class="variants">
+                  <li><span>Courts</span><b>140.–</b></li>
+                  <li><span>Mi-longs</span><b>155.–</b></li>
+                  <li><span>Longs</span><b>165.–</b></li>
+                  <li><span>Très longs</span><b>175.–</b></li>
+                </ul>
+              </li>
+              <li class="svc">
+                <div class="svc__head"><h4 class="svc__name">Coloration + gloss + brushing</h4><p class="svc__price"><span class="svc__from">dès</span> CHF 130.–</p></div>
+                <p class="svc__meta"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>1 h 30 à 2 h</p>
+                <ul class="variants">
+                  <li><span>Courts</span><b>130.–</b></li>
+                  <li><span>Mi-longs</span><b>140.–</b></li>
+                  <li><span>Longs</span><b>150.–</b></li>
+                  <li><span>Très longs</span><b>170.–</b></li>
+                </ul>
+              </li>
+              <li class="svc">
+                <div class="svc__head"><h4 class="svc__name">Coloration + gloss + coupe + brushing</h4><p class="svc__price"><span class="svc__from">dès</span> CHF 150.–</p></div>
+                <p class="svc__meta"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>1 h 45 à 2 h</p>
+                <ul class="variants">
+                  <li><span>Courts</span><b>150.–</b></li>
+                  <li><span>Mi-longs</span><b>165.–</b></li>
+                  <li><span>Longs</span><b>180.–</b></li>
+                  <li><span>Très longs</span><b>200.–</b></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Gloss & soins -->
+          <div class="tabs__panel" id="tarifs-soins" data-panel="soins">
+            <h3 class="panel-title">Gloss &amp; soins</h3>
+            <ul class="svc-list">
+              <li class="svc">
+                <div class="svc__head"><h4 class="svc__name">Gloss + brushing</h4><p class="svc__price"><span class="svc__from">dès</span> CHF 108.–</p></div>
+                <p class="svc__meta"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>1 h à 1 h 30</p>
+                <ul class="variants">
+                  <li><span>Courts</span><b>108.–</b></li>
+                  <li><span>Mi-longs</span><b>120.–</b></li>
+                  <li><span>Longs</span><b>135.–</b></li>
+                  <li><span>Très longs</span><b>150.–</b></li>
+                </ul>
+              </li>
+              <li class="svc">
+                <div class="svc__head"><h4 class="svc__name">Gloss + coupe + brushing</h4><p class="svc__price"><span class="svc__from">dès</span> CHF 135.–</p></div>
+                <p class="svc__meta"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>1 h 15 à 1 h 45</p>
+                <ul class="variants">
+                  <li><span>Courts</span><b>135.–</b></li>
+                  <li><span>Mi-longs</span><b>150.–</b></li>
+                  <li><span>Longs</span><b>165.–</b></li>
+                  <li><span>Très longs</span><b>180.–</b></li>
+                </ul>
+              </li>
+              <li class="svc">
+                <div class="svc__head"><h4 class="svc__name">Gloss + soin botox + brushing</h4><p class="svc__price"><span class="svc__from">dès</span> CHF 170.–</p></div>
+                <p class="svc__meta"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>1 h 45 à 2 h 15</p>
+                <ul class="variants">
+                  <li><span>Courts</span><b>170.–</b></li>
+                  <li><span>Mi-longs</span><b>185.–</b></li>
+                  <li><span>Longs</span><b>200.–</b></li>
+                  <li><span>Très longs</span><b>225.–</b></li>
+                </ul>
+              </li>
+              <li class="svc">
+                <div class="svc__head"><h4 class="svc__name">Gloss + coupe + brushing + soin botox</h4><p class="svc__price"><span class="svc__from">dès</span> CHF 195.–</p></div>
+                <p class="svc__meta"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>2 h à 2 h 30</p>
+                <ul class="variants">
+                  <li><span>Courts</span><b>195.–</b></li>
+                  <li><span>Mi-longs</span><b>225.–</b></li>
+                  <li><span>Longs</span><b>245.–</b></li>
+                  <li><span>Très longs</span><b>260.–</b></li>
+                </ul>
+              </li>
+              <li class="svc">
+                <div class="svc__head"><h4 class="svc__name">Soin botox + brushing</h4><p class="svc__price"><span class="svc__from">dès</span> CHF 98.–</p></div>
+                <p class="svc__meta"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>1 h 15 à 1 h 45</p>
+                <ul class="variants">
+                  <li><span>Courts</span><b>98.–</b></li>
+                  <li><span>Mi-longs</span><b>125.–</b></li>
+                  <li><span>Longs</span><b>145.–</b></li>
+                  <li><span>Très longs</span><b>160.–</b></li>
+                </ul>
+              </li>
+              <li class="svc">
+                <div class="svc__head"><h4 class="svc__name">Soin botox + coupe + brushing</h4><p class="svc__price"><span class="svc__from">dès</span> CHF 125.–</p></div>
+                <p class="svc__meta"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>1 h 15 à 1 h 45</p>
+                <ul class="variants">
+                  <li><span>Courts</span><b>125.–</b></li>
+                  <li><span>Mi-longs</span><b>145.–</b></li>
+                  <li><span>Longs</span><b>165.–</b></li>
+                  <li><span>Très longs</span><b>180.–</b></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Coupe & coiffage -->
+          <div class="tabs__panel" id="tarifs-coupe" data-panel="coupe">
+            <h3 class="panel-title">Coupe &amp; coiffage</h3>
+            <ul class="svc-list">
+              <li class="svc">
+                <div class="svc__head"><h4 class="svc__name">Coupe femme</h4><p class="svc__price"><span class="svc__from">dès</span> CHF 55.–</p></div>
+                <p class="svc__meta"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>30 min à 1 h 15</p>
+                <ul class="variants">
+                  <li><span>Très courts</span><b>55.–</b></li>
+                  <li><span>Courts</span><b>65.–</b></li>
+                  <li><span>Mi-longs</span><b>75.–</b></li>
+                  <li><span>Longs</span><b>85.–</b></li>
+                  <li><span>Très longs</span><b>95.–</b></li>
+                </ul>
+              </li>
+              <li class="svc">
+                <div class="svc__head"><h4 class="svc__name">Coupe étudiante</h4><p class="svc__price">CHF 59.–</p></div>
+                <p class="svc__desc">Avec séchage naturel.</p>
+                <p class="svc__meta"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>45 min</p>
+              </li>
+              <li class="svc">
+                <div class="svc__head"><h4 class="svc__name">Coupe à sec, cheveux lisses</h4><p class="svc__price">CHF 55.–</p></div>
+                <p class="svc__desc">Sans shampooing.</p>
+                <p class="svc__meta"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>30 min</p>
+              </li>
+              <li class="svc">
+                <div class="svc__head"><h4 class="svc__name">Brushing</h4><p class="svc__price"><span class="svc__from">dès</span> CHF 38.–</p></div>
+                <p class="svc__meta"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>30 min à 1 h</p>
+                <ul class="variants">
+                  <li><span>Courts</span><b>38.–</b></li>
+                  <li><span>Mi-longs</span><b>45.–</b></li>
+                  <li><span>Longs</span><b>55.–</b></li>
+                  <li><span>Très longs</span><b>65.–</b></li>
+                </ul>
+                <p class="svc__note">Cheveux très épais : mi-longs 55.–, longs 65.–, très longs 80.–</p>
+              </li>
+              <li class="svc">
+                <div class="svc__head"><h4 class="svc__name">Brushing complexe (sans attache)</h4><p class="svc__price"><span class="svc__from">dès</span> CHF 44.–</p></div>
+                <p class="svc__meta"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>45 min à 1 h</p>
+                <ul class="variants">
+                  <li><span>Mi-longs</span><b>44.–</b></li>
+                  <li><span>Longs</span><b>55.–</b></li>
+                  <li><span>Extra longs</span><b>65.–</b></li>
+                </ul>
+              </li>
+              <li class="svc">
+                <div class="svc__head"><h4 class="svc__name">Coiffage à sec (sans attache)</h4><p class="svc__price">CHF 20.–</p></div>
+                <p class="svc__meta"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>15 à 20 min</p>
+              </li>
+              <li class="svc svc--highlight">
+                <div class="svc__head"><h4 class="svc__name">Frange</h4><p class="svc__price">CHF 15.–</p></div>
+                <p class="svc__desc">Pas de réservation à l'avance : appelez le salon pour connaître les disponibilités du jour.</p>
+                <p class="svc__meta"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>15 min</p>
+                <a class="text-link" href="tel:+41794380883"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>Appeler le 079 438 08 83</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Lissage & permanente -->
+          <div class="tabs__panel" id="tarifs-lissage" data-panel="lissage">
+            <h3 class="panel-title">Lissage &amp; permanente</h3>
+            <ul class="svc-list">
+              <li class="svc">
+                <div class="svc__head"><h4 class="svc__name">Lissage kératine</h4><p class="svc__price"><span class="svc__from">dès</span> CHF 210.–</p></div>
+                <p class="svc__meta"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>2 h 15 à 3 h</p>
+                <ul class="variants">
+                  <li><span>Courts</span><b>210.–</b></li>
+                  <li><span>Mi-longs</span><b>260.–</b></li>
+                  <li><span>Longs</span><b>310.–</b></li>
+                  <li><span>Très longs</span><b>360.–</b></li>
+                </ul>
+                <p class="svc__note">Suppléments : cheveux très épais + 50.–, cheveux extra longs + 25.–</p>
+              </li>
+              <li class="svc">
+                <div class="svc__head"><h4 class="svc__name">Permanente</h4><p class="svc__price"><span class="svc__from">dès</span> CHF 165.–</p></div>
+                <p class="svc__meta"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>2 h à 3 h</p>
+                <ul class="variants">
+                  <li><span>Très courts</span><b>165.–</b></li>
+                  <li><span>Courts à mi-longs</span><b>230.–</b></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Homme -->
+          <div class="tabs__panel" id="tarifs-homme" data-panel="homme">
+            <h3 class="panel-title">Homme</h3>
+            <ul class="svc-list">
+              <li class="svc">
+                <div class="svc__head"><h4 class="svc__name">Coupe homme</h4><p class="svc__price"><span class="svc__from">dès</span> CHF 39.–</p></div>
+                <p class="svc__meta"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>30 à 45 min</p>
+                <ul class="variants">
+                  <li><span>Courts</span><b>39.–</b></li>
+                  <li><span>Mi-longs à longs</span><b>55.–</b></li>
+                </ul>
+              </li>
+              <li class="svc">
+                <div class="svc__head"><h4 class="svc__name">Coupe étudiant</h4><p class="svc__price">CHF 35.–</p></div>
+                <p class="svc__meta"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>30 min</p>
+              </li>
+              <li class="svc">
+                <div class="svc__head"><h4 class="svc__name">Coupe tondeuse</h4><p class="svc__price">CHF 28.–</p></div>
+                <p class="svc__desc">Entièrement à la tondeuse, ou uniquement sur les côtés.</p>
+                <p class="svc__meta"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>15 min</p>
+              </li>
+              <li class="svc">
+                <div class="svc__head"><h4 class="svc__name">Gloss ou couleur + coupe</h4><p class="svc__price">CHF 95.–</p></div>
+                <p class="svc__meta"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>1 h 15</p>
+              </li>
+              <li class="svc">
+                <div class="svc__head"><h4 class="svc__name">Décoloration homme</h4><p class="svc__price">CHF 150.–</p></div>
+                <p class="svc__meta"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>2 h 30</p>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Suppléments -->
+          <div class="tabs__panel" id="tarifs-supplements" data-panel="supplements">
+            <h3 class="panel-title">Suppléments</h3>
+            <p class="panel-intro">À ajouter à une prestation lors de votre réservation.</p>
+            <ul class="svc-list">
+              <li class="svc">
+                <div class="svc__head"><h4 class="svc__name">Kérastase Première</h4><p class="svc__price">CHF 35.–</p></div>
+                <p class="svc__meta"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>15 min</p>
+              </li>
+              <li class="svc">
+                <div class="svc__head"><h4 class="svc__name">Supplément botox</h4><p class="svc__price"><span class="svc__from">dès</span> CHF 60.–</p></div>
+                <p class="svc__meta"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>30 min</p>
+                <ul class="variants">
+                  <li><span>Courts</span><b>60.–</b></li>
+                  <li><span>Mi-longs</span><b>75.–</b></li>
+                  <li><span>Longs</span><b>90.–</b></li>
+                </ul>
+              </li>
+              <li class="svc">
+                <div class="svc__head"><h4 class="svc__name">Supplément soin</h4><p class="svc__price">CHF 12.–</p></div>
+                <p class="svc__meta"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>15 min</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="prices-footer reveal">
+          <p class="prices-footer__note">Tarifs en francs suisses, relevés sur la page de réservation du salon le 19&nbsp;octobre 2026. En cas de différence, le prix affiché lors de la réservation fait foi.</p>
+          <a class="btn btn--dark" href="https://salonkee.ch/salon/la-coiffure" target="_blank" rel="noopener">
+            Réserver en ligne<span class="visually-hidden"> sur Salonkee (nouvel onglet)</span>
+            <svg class="icon" aria-hidden="true"><use href="#i-external"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- AVIS -->
+    <section class="section section--dark" id="avis" aria-labelledby="avis-title">
+      <div class="container">
+        <div class="reviews">
+          <div class="reviews__summary reveal">
+            <p class="eyebrow">Avis clients</p>
+            <h2 class="section-title" id="avis-title">Noté <span class="silver">4,9 sur 5</span></h2>
+            <p class="reviews__lead">Sur 222 avis vérifiés laissés après un rendez-vous réservé sur Salonkee.</p>
+
+            <dl class="histogram" aria-label="Répartition des 222 avis">
+              <div class="histogram__row"><dt>5 étoiles</dt><dd><span class="histogram__bar" style="--v: 96.8%"></span><span class="histogram__count">215</span></dd></div>
+              <div class="histogram__row"><dt>4 étoiles</dt><dd><span class="histogram__bar" style="--v: 1.8%"></span><span class="histogram__count">4</span></dd></div>
+              <div class="histogram__row"><dt>3 étoiles</dt><dd><span class="histogram__bar" style="--v: 0.5%"></span><span class="histogram__count">1</span></dd></div>
+              <div class="histogram__row"><dt>2 étoiles</dt><dd><span class="histogram__bar" style="--v: 0.9%"></span><span class="histogram__count">2</span></dd></div>
+              <div class="histogram__row"><dt>1 étoile</dt><dd><span class="histogram__bar" style="--v: 0%"></span><span class="histogram__count">0</span></dd></div>
+            </dl>
+
+            <dl class="subscores">
+              <div><dt>Personnel</dt><dd>5,0</dd></div>
+              <div><dt>Ambiance</dt><dd>4,9</dd></div>
+              <div><dt>Résultat final</dt><dd>4,9</dd></div>
+            </dl>
+          </div>
+
+          <div class="reviews__quotes">
+            <figure class="quote reveal">
+              <blockquote><p>Qualité du travail, performances et professionnalisme toujours au top et dans la durée ! Merci Liri !</p></blockquote>
+              <figcaption>Avis vérifié Salonkee · octobre 2026</figcaption>
+            </figure>
+            <figure class="quote reveal">
+              <blockquote><p>Toujours parfait ! Accueil, conseil et professionnalisme.</p></blockquote>
+              <figcaption>Avis vérifié Salonkee · septembre 2026</figcaption>
+            </figure>
+            <figure class="quote reveal">
+              <blockquote><p>Chez Liri, toujours souriante et efficace, c'est un plaisir à chaque fois d'y revenir !</p></blockquote>
+              <figcaption>Avis vérifié Salonkee · septembre 2026</figcaption>
+            </figure>
+            <p class="reviews__source">
+              Note et nombre d'avis relevés le 19 octobre 2026.
+              <a class="text-link text-link--light" href="https://salonkee.ch/salon/la-coiffure" target="_blank" rel="noopener">Lire tous les avis sur Salonkee<span class="visually-hidden"> (nouvel onglet)</span><svg class="icon" aria-hidden="true"><use href="#i-external"/></svg></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HORAIRES & ACCÈS -->
+    <section class="section section--light" id="acces" aria-labelledby="acces-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow eyebrow--dark">Horaires &amp; accès</p>
+          <h2 class="section-title" id="acces-title">Infos pratiques</h2>
+        </div>
+
+        <div class="practical">
+          <div class="practical__col reveal">
+            <div class="card">
+              <div class="card__head">
+                <h3 class="card__title"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>Horaires d'ouverture</h3>
+                <p class="status" data-open-status-badge hidden></p>
+              </div>
+              <table class="hours" data-hours>
+                <caption class="visually-hidden">Horaires d'ouverture du salon</caption>
+                <tbody>
+                  <tr data-day="1"><th scope="row">Lundi</th><td>Fermé</td></tr>
+                  <tr data-day="2" data-open="09:00" data-close="18:30"><th scope="row">Mardi</th><td>9h00 – 18h30</td></tr>
+                  <tr data-day="3" data-open="09:00" data-close="18:30"><th scope="row">Mercredi</th><td>9h00 – 18h30</td></tr>
+                  <tr data-day="4" data-open="09:00" data-close="18:30"><th scope="row">Jeudi</th><td>9h00 – 18h30</td></tr>
+                  <tr data-day="5" data-open="09:00" data-close="18:30"><th scope="row">Vendredi</th><td>9h00 – 18h30</td></tr>
+                  <tr data-day="6" data-open="08:30" data-close="16:00"><th scope="row">Samedi</th><td>8h30 – 16h00</td></tr>
+                  <tr data-day="0"><th scope="row">Dimanche</th><td>Fermé</td></tr>
+                </tbody>
+              </table>
+              <p class="card__small">Horaires habituels. Les jours fériés, renseignez-vous par téléphone.</p>
+            </div>
+
+            <div class="card">
+              <h3 class="card__title"><svg class="icon" aria-hidden="true"><use href="#i-info"/></svg>Bon à savoir</h3>
+              <ul class="checklist">
+                <li><svg class="icon" aria-hidden="true"><use href="#i-cash"/></svg><span><strong>Paiement en espèces uniquement.</strong> Pensez à en prévoir avant votre rendez-vous.</span></li>
+                <li><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg><span><strong>Annulation :</strong> un rendez-vous annulé moins de 24&nbsp;h à l'avance est facturé 50&nbsp;% de la prestation.</span></li>
+                <li><svg class="icon" aria-hidden="true"><use href="#i-scissors"/></svg><span><strong>Frange :</strong> sans réservation, appelez pour connaître les disponibilités du jour.</span></li>
+                <li><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg><span><strong>Réservation en ligne</strong> 24&nbsp;h/24, jusqu'à 20&nbsp;semaines à l'avance.</span></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="practical__col reveal">
+            <div class="card card--flush">
+              <figure class="access__photo">
+                <picture>
+                  <source type="image/avif" srcset="assets/images/vitrine-720.avif 720w, assets/images/vitrine-1200.avif 1200w" sizes="(min-width: 1024px) 45vw, 100vw">
+                  <img src="assets/images/vitrine-1200.jpg" srcset="assets/images/vitrine-720.jpg 720w, assets/images/vitrine-1200.jpg 1200w" sizes="(min-width: 1024px) 45vw, 100vw" width="1200" height="884" alt="La vitrine du salon L&amp;A Coiffure et son enseigne noire, au boulevard de Pérolles 22" loading="lazy" decoding="async">
+                </picture>
+                <figcaption>Repérez l'enseigne noire L&amp;A Coiffure au n°&nbsp;22.</figcaption>
+              </figure>
+
+              <div class="access__body">
+                <h3 class="card__title"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>Adresse</h3>
+                <address class="access__address">
+                  L&amp;A Coiffure<br>
+                  Boulevard de Pérolles 22<br>
+                  1700 Fribourg
+                </address>
+                <p class="access__phone"><a href="tel:+41794380883">079 438 08 83</a></p>
+
+                <div class="access__actions">
+                  <a class="btn btn--dark" href="https://www.google.com/maps/dir/?api=1&amp;destination=L%26A%20Coiffure%2C%20Boulevard%20de%20P%C3%A9rolles%2022%2C%201700%20Fribourg" target="_blank" rel="noopener">
+                    <svg class="icon" aria-hidden="true"><use href="#i-route"/></svg>
+                    Itinéraire<span class="visually-hidden"> avec Google Maps (nouvel onglet)</span>
+                  </a>
+                  <a class="btn btn--outline" href="https://maps.apple.com/?q=L%26A%20Coiffure&amp;address=Boulevard%20de%20P%C3%A9rolles%2022%2C%201700%20Fribourg%2C%20Suisse&amp;ll=46.799866,7.1528" target="_blank" rel="noopener">
+                    Plans (Apple)<span class="visually-hidden"> (nouvel onglet)</span>
+                  </a>
+                </div>
+
+                <div class="map" data-map>
+                  <p class="map__text">La carte est fournie par OpenStreetMap. Elle ne se charge que si vous le demandez.</p>
+                  <button class="btn btn--outline btn--sm" type="button" data-map-load>
+                    <svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>
+                    Afficher la carte
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- APPEL À L'ACTION FINAL -->
+    <section class="cta-final" aria-labelledby="cta-title" data-cta-final>
+      <div class="container cta-final__inner reveal">
+        <span class="chevron" aria-hidden="true"></span>
+        <h2 class="cta-final__title" id="cta-title">Votre prochain <span class="nowrap">rendez-vous</span>, <span class="silver">en quelques clics</span></h2>
+        <p class="cta-final__text">Choisissez votre prestation et votre créneau en ligne, ou appelez le salon.</p>
+        <div class="cta-final__actions">
+          <a class="btn btn--silver btn--lg" href="https://salonkee.ch/salon/la-coiffure" target="_blank" rel="noopener">
+            <svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg>
+            Prendre rendez-vous<span class="visually-hidden"> sur Salonkee (nouvel onglet)</span>
+          </a>
+          <a class="btn btn--ghost btn--lg" href="tel:+41794380883">
+            <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+            079 438 08 83
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__grid">
+      <div class="site-footer__brand">
+        <img src="assets/images/logo-la-coiffure.png" width="400" height="244" alt="L&amp;A Coiffure" loading="lazy" class="site-footer__logo">
+        <p>Votre coiffeur sur Fribourg</p>
+      </div>
+      <div>
+        <h2 class="site-footer__title">Contact</h2>
+        <address>
+          Boulevard de Pérolles 22<br>
+          1700 Fribourg<br>
+          <a href="tel:+41794380883">079 438 08 83</a>
+        </address>
+      </div>
+      <div>
+        <h2 class="site-footer__title">Horaires</h2>
+        <p>Mardi – vendredi : 9h00 – 18h30<br>Samedi : 8h30 – 16h00<br>Dimanche et lundi : fermé</p>
+      </div>
+      <div>
+        <h2 class="site-footer__title">Liens</h2>
+        <ul class="site-footer__links">
+          <li><a href="#prestations">Prestations &amp; tarifs</a></li>
+          <li><a href="https://salonkee.ch/salon/la-coiffure" target="_blank" rel="noopener">Réserver sur Salonkee<span class="visually-hidden"> (nouvel onglet)</span></a></li>
+          <li><a href="mentions-legales.html">Mentions légales &amp; confidentialité</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container site-footer__bottom">
+      <p>© <span data-year>2026</span> L&amp;A Coiffure · Photos : L&amp;A Coiffure</p>
+    </div>
+  </footer>
+
+  <!-- Barre d'action mobile -->
+  <div class="action-bar" data-action-bar aria-hidden="true">
+    <a class="btn btn--silver" href="https://salonkee.ch/salon/la-coiffure" target="_blank" rel="noopener" tabindex="-1">
+      <svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg>
+      Réserver<span class="visually-hidden"> sur Salonkee (nouvel onglet)</span>
+    </a>
+    <a class="btn btn--ghost" href="tel:+41794380883" tabindex="-1">
+      <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+      Appeler
+    </a>
+  </div>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
